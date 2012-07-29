@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B357B18115C4EDAF005A7779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357B18015C4EDAF005A7779 /* UIKit.framework */; };
+		B357B18315C4EDAF005A7779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357B18215C4EDAF005A7779 /* Foundation.framework */; };
+		B357B18515C4EDAF005A7779 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357B18415C4EDAF005A7779 /* CoreGraphics.framework */; };
+		B357B18B15C4EDAF005A7779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B357B18915C4EDAF005A7779 /* InfoPlist.strings */; };
+		B357B18D15C4EDAF005A7779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B357B18C15C4EDAF005A7779 /* main.m */; };
+		B357B19115C4EDAF005A7779 /* MUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B357B19015C4EDAF005A7779 /* MUAppDelegate.m */; };
+		B357B19915C4EDB0005A7779 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357B19815C4EDB0005A7779 /* SenTestingKit.framework */; };
+		B357B19A15C4EDB0005A7779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357B18015C4EDAF005A7779 /* UIKit.framework */; };
+		B357B19B15C4EDB0005A7779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B357B18215C4EDAF005A7779 /* Foundation.framework */; };
+		B357B1A315C4EDB0005A7779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B357B1A115C4EDB0005A7779 /* InfoPlist.strings */; };
+		B357B1A615C4EDB0005A7779 /* MUWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B357B1A515C4EDB0005A7779 /* MUWorkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B357B19C15C4EDB0005A7779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B357B17315C4EDAF005A7779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B357B17B15C4EDAF005A7779;
+			remoteInfo = MUWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B357B17C15C4EDAF005A7779 /* MUWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MUWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B357B18015C4EDAF005A7779 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B357B18215C4EDAF005A7779 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B357B18415C4EDAF005A7779 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B357B18815C4EDAF005A7779 /* MUWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MUWork-Info.plist"; sourceTree = "<group>"; };
+		B357B18A15C4EDAF005A7779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B357B18C15C4EDAF005A7779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B357B18E15C4EDAF005A7779 /* MUWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MUWork-Prefix.pch"; sourceTree = "<group>"; };
+		B357B18F15C4EDAF005A7779 /* MUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUAppDelegate.h; sourceTree = "<group>"; };
+		B357B19015C4EDAF005A7779 /* MUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUAppDelegate.m; sourceTree = "<group>"; };
+		B357B19715C4EDB0005A7779 /* MUWorkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MUWorkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B357B19815C4EDB0005A7779 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B357B1A015C4EDB0005A7779 /* MUWorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MUWorkTests-Info.plist"; sourceTree = "<group>"; };
+		B357B1A215C4EDB0005A7779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B357B1A415C4EDB0005A7779 /* MUWorkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUWorkTests.h; sourceTree = "<group>"; };
+		B357B1A515C4EDB0005A7779 /* MUWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUWorkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B357B17915C4EDAF005A7779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357B18115C4EDAF005A7779 /* UIKit.framework in Frameworks */,
+				B357B18315C4EDAF005A7779 /* Foundation.framework in Frameworks */,
+				B357B18515C4EDAF005A7779 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B357B19315C4EDB0005A7779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357B19915C4EDB0005A7779 /* SenTestingKit.framework in Frameworks */,
+				B357B19A15C4EDB0005A7779 /* UIKit.framework in Frameworks */,
+				B357B19B15C4EDB0005A7779 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B357B17115C4EDAF005A7779 = {
+			isa = PBXGroup;
+			children = (
+				B357B18615C4EDAF005A7779 /* MUWork */,
+				B357B19E15C4EDB0005A7779 /* MUWorkTests */,
+				B357B17F15C4EDAF005A7779 /* Frameworks */,
+				B357B17D15C4EDAF005A7779 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B357B17D15C4EDAF005A7779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B357B17C15C4EDAF005A7779 /* MUWork.app */,
+				B357B19715C4EDB0005A7779 /* MUWorkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B357B17F15C4EDAF005A7779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B357B18015C4EDAF005A7779 /* UIKit.framework */,
+				B357B18215C4EDAF005A7779 /* Foundation.framework */,
+				B357B18415C4EDAF005A7779 /* CoreGraphics.framework */,
+				B357B19815C4EDB0005A7779 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B357B18615C4EDAF005A7779 /* MUWork */ = {
+			isa = PBXGroup;
+			children = (
+				B357B18F15C4EDAF005A7779 /* MUAppDelegate.h */,
+				B357B19015C4EDAF005A7779 /* MUAppDelegate.m */,
+				B357B18715C4EDAF005A7779 /* Supporting Files */,
+			);
+			path = MUWork;
+			sourceTree = "<group>";
+		};
+		B357B18715C4EDAF005A7779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B357B18815C4EDAF005A7779 /* MUWork-Info.plist */,
+				B357B18915C4EDAF005A7779 /* InfoPlist.strings */,
+				B357B18C15C4EDAF005A7779 /* main.m */,
+				B357B18E15C4EDAF005A7779 /* MUWork-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B357B19E15C4EDB0005A7779 /* MUWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				B357B1A415C4EDB0005A7779 /* MUWorkTests.h */,
+				B357B1A515C4EDB0005A7779 /* MUWorkTests.m */,
+				B357B19F15C4EDB0005A7779 /* Supporting Files */,
+			);
+			path = MUWorkTests;
+			sourceTree = "<group>";
+		};
+		B357B19F15C4EDB0005A7779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B357B1A015C4EDB0005A7779 /* MUWorkTests-Info.plist */,
+				B357B1A115C4EDB0005A7779 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B357B17B15C4EDAF005A7779 /* MUWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B357B1A915C4EDB0005A7779 /* Build configuration list for PBXNativeTarget "MUWork" */;
+			buildPhases = (
+				B357B17815C4EDAF005A7779 /* Sources */,
+				B357B17915C4EDAF005A7779 /* Frameworks */,
+				B357B17A15C4EDAF005A7779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MUWork;
+			productName = MUWork;
+			productReference = B357B17C15C4EDAF005A7779 /* MUWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B357B19615C4EDB0005A7779 /* MUWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B357B1AC15C4EDB0005A7779 /* Build configuration list for PBXNativeTarget "MUWorkTests" */;
+			buildPhases = (
+				B357B19215C4EDB0005A7779 /* Sources */,
+				B357B19315C4EDB0005A7779 /* Frameworks */,
+				B357B19415C4EDB0005A7779 /* Resources */,
+				B357B19515C4EDB0005A7779 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B357B19D15C4EDB0005A7779 /* PBXTargetDependency */,
+			);
+			name = MUWorkTests;
+			productName = MUWorkTests;
+			productReference = B357B19715C4EDB0005A7779 /* MUWorkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B357B17315C4EDAF005A7779 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MU;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = MUWork;
+			};
+			buildConfigurationList = B357B17615C4EDAF005A7779 /* Build configuration list for PBXProject "MUWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B357B17115C4EDAF005A7779;
+			productRefGroup = B357B17D15C4EDAF005A7779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B357B17B15C4EDAF005A7779 /* MUWork */,
+				B357B19615C4EDB0005A7779 /* MUWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B357B17A15C4EDAF005A7779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357B18B15C4EDAF005A7779 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B357B19415C4EDB0005A7779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357B1A315C4EDB0005A7779 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B357B19515C4EDB0005A7779 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B357B17815C4EDAF005A7779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357B18D15C4EDAF005A7779 /* main.m in Sources */,
+				B357B19115C4EDAF005A7779 /* MUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B357B19215C4EDB0005A7779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B357B1A615C4EDB0005A7779 /* MUWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B357B19D15C4EDB0005A7779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B357B17B15C4EDAF005A7779 /* MUWork */;
+			targetProxy = B357B19C15C4EDB0005A7779 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B357B18915C4EDAF005A7779 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B357B18A15C4EDAF005A7779 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B357B1A115C4EDB0005A7779 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B357B1A215C4EDB0005A7779 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B357B1A715C4EDB0005A7779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B357B1A815C4EDB0005A7779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B357B1AA15C4EDB0005A7779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MUWork/MUWork-Prefix.pch";
+				INFOPLIST_FILE = "MUWork/MUWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B357B1AB15C4EDB0005A7779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MUWork/MUWork-Prefix.pch";
+				INFOPLIST_FILE = "MUWork/MUWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B357B1AD15C4EDB0005A7779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MUWork.app/MUWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MUWork/MUWork-Prefix.pch";
+				INFOPLIST_FILE = "MUWorkTests/MUWorkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B357B1AE15C4EDB0005A7779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MUWork.app/MUWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MUWork/MUWork-Prefix.pch";
+				INFOPLIST_FILE = "MUWorkTests/MUWorkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B357B17615C4EDAF005A7779 /* Build configuration list for PBXProject "MUWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B357B1A715C4EDB0005A7779 /* Debug */,
+				B357B1A815C4EDB0005A7779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B357B1A915C4EDB0005A7779 /* Build configuration list for PBXNativeTarget "MUWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B357B1AA15C4EDB0005A7779 /* Debug */,
+				B357B1AB15C4EDB0005A7779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B357B1AC15C4EDB0005A7779 /* Build configuration list for PBXNativeTarget "MUWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B357B1AD15C4EDB0005A7779 /* Debug */,
+				B357B1AE15C4EDB0005A7779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B357B17315C4EDAF005A7779 /* Project object */;
+}
