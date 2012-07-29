@@ -7,6 +7,11 @@
 //
 
 #import "MUWorkTests.h"
+#import "TestAction.h"
+#import "TestInteceptor.h"
+#import "DefaultMUResult.h"
+#import "MUHandler.h"
+#import "MUInvocation.h"
 
 @implementation MUWorkTests
 
@@ -26,7 +31,18 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in MUWorkTests");
+    TestInteceptor* interceptor = [[TestInteceptor alloc] init];
+    TestAction* action = [[TestAction alloc] init];
+    DefaultMUResult* result = [[DefaultMUResult alloc] init];
+    
+    MUHandler* handler = [[MUHandler alloc] init];
+    [handler setAction:action];
+    [handler setResult:result];
+    [handler addInterceptor:interceptor];
+    [handler setContextObject:@"abc" forKey:@"name"];
+    
+    MUInvocation* invocation = [[MUInvocation alloc] init];
+    NSLog(@"%@", [invocation invoke:handler]);
 }
 
 @end
